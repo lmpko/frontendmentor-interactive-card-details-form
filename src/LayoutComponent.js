@@ -6,7 +6,7 @@ const LayoutComponent = () => {
   return (
     <div>
         <div>
-            <img src="" alt=""/>
+            <CardComponent/>
             <CardComponent/>
         </div>
         <div>
