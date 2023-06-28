@@ -11,12 +11,45 @@
 
 body{
     font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+.container {
+    background: url("/images/bg-main-mobile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: .9375rem;
 }
 
 .card{
     width: 16.8125rem ;
     height: 10rem ;
     padding: .9375rem ;
+    color: var(--neutral-color);
+}
+
+.card img{
+    width: 15%;
+}
+
+.card:nth-child(1){
+    position: relative;
+    right: -2.8125rem;
+}
+
+.card:nth-child(1) span{
+    position: relative;
+    top: 3.4375rem;
+    left: 13.4375rem;
+}
+
+.card:nth-child(2){
+    position: relative;
+    top: -6.0625rem;
 }
 
 .card__back-background{
@@ -29,4 +62,18 @@ body{
     background-image: url("/images/bg-card-front.png");
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.card__details{
+    margin-top: 2.25rem;
+}
+
+.card__card-number{
+    font-size: 1.5rem;
+}
+.card__details-next{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .9375rem ;
+    color: var(--darker-neutral-color);
 }

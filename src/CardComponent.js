@@ -9,11 +9,11 @@ const CardComponent = ({CARD_NUMBER, NAME, CARD_EXPIRATION, card_logo,CARD_BACK_
         {card_logo && <img src={card_logo} alt="card-logo"/>}
 
         {CARD_NUMBER &&
-            <div>
-                <p>
+            <div className='card__details'>
+                <p className='card__card-number'>
                     {CARD_NUMBER}
                 </p>
-                <div>
+                <div className='card__details-next'>
                     <p>
                         {NAME}
                     </p>

@@ -6,8 +6,8 @@ import card_logo from "/images/card-logo.svg"
 
 const LayoutComponent = () => {
   return (
-    <div>
-        <div>
+    <div className='wrapper'>
+        <div className='container'>
             <CardComponent CARD_BACK_CODE={CARD_BACK_CODE}
               backgroundImage= "card__back-background"
             />
