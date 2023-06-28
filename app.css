@@ -1,0 +1,14 @@
+:root{
+    --primary-color: hsl(249, 99%, 64%) to hsl(278, 94%, 30%);
+    --secondary-color: hsl(0, 100%, 66%);
+
+    --neutral-color: hsl(0, 0%, 100%);
+    --darker-neutral-color: hsl(270, 3%, 87%);
+    --dark-neutral-color: hsl(279, 6%, 55%);
+    --darkest-neutral-color: hsl(278, 68%, 11%);
+
+}
+
+body{
+    font-family: 'Space Grotesk', sans-serif;
+}
