@@ -8,8 +8,11 @@ const LayoutComponent = () => {
   return (
     <div>
         <div>
-            <CardComponent CARD_BACK_CODE={CARD_BACK_CODE}/>
+            <CardComponent CARD_BACK_CODE={CARD_BACK_CODE}
+              backgroundImage= "card__back-background"
+            />
             <CardComponent 
+             backgroundImage= "card__front-background"
               CARD_NUMBER={CARD_NUMBER} 
               NAME={NAME}
               CARD_EXPIRATION={CARD_EXPIRATION} 

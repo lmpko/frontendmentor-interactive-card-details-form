@@ -12,3 +12,21 @@
 body{
     font-family: 'Space Grotesk', sans-serif;
 }
+
+.card{
+    width: 16.8125rem ;
+    height: 10rem ;
+    padding: .9375rem ;
+}
+
+.card__back-background{
+    background-image: url("/images/bg-card-back.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.card__front-background{
+    background-image: url("/images/bg-card-front.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
