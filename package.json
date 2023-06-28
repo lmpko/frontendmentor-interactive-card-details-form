@@ -1,0 +1,28 @@
+{
+  "name": "interactive-card-details-form-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Interactive card details form coding challenge](./design/desktop-preview.jpg)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmpko/frontendmentor-interactive-card-details-form.git"
+  },
+  "author": "lmp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmpko/frontendmentor-interactive-card-details-form/issues"
+  },
+  "homepage": "https://github.com/lmpko/frontendmentor-interactive-card-details-form#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  }
+}
